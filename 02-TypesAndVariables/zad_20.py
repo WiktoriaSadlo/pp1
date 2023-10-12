@@ -1,0 +1,6 @@
+x = int(input('Enter a number:'))
+y = int(input('Enter a second number:'))
+print('Number one:', x)
+print('Number two:', y)
+print('Division result:', x//y)
+print('Remainder:', x%y)
