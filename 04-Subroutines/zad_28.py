@@ -1,3 +1,5 @@
+#Nie działa, do naprawy
+
 def f(binary_number):
     y = str(binary_number)
     for x in range(len(y)):
