@@ -1,0 +1,43 @@
+test_p1 (__main__.Test) ... ok
+test_p2 (__main__.Test) ... ok
+test_p3 (__main__.Test) ... ERROR
+test_p4 (__main__.Test) ... ERROR
+test_p5 (__main__.Test) ... ERROR
+test_p6 (__main__.Test) ... ERROR
+
+======================================================================
+ERROR: test_p3 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\wikis\OneDrive\Pulpit\pp1\05-Test1\mock\check.py", line 28, in test_p3
+    self.assertEqual(p3.f("For Your Information"),"FYI")
+AttributeError: module 'p3' has no attribute 'f'
+
+======================================================================
+ERROR: test_p4 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\wikis\OneDrive\Pulpit\pp1\05-Test1\mock\check.py", line 32, in test_p4
+    import p4
+ModuleNotFoundError: No module named 'p4'
+
+======================================================================
+ERROR: test_p5 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\wikis\OneDrive\Pulpit\pp1\05-Test1\mock\check.py", line 37, in test_p5
+    import p5
+ModuleNotFoundError: No module named 'p5'
+
+======================================================================
+ERROR: test_p6 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\wikis\OneDrive\Pulpit\pp1\05-Test1\mock\check.py", line 43, in test_p6
+    import p6
+ModuleNotFoundError: No module named 'p6'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.114s
+
+FAILED (errors=4)
